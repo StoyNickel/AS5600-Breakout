@@ -1,0 +1,11 @@
+﻿Comment,Designator,Footprint,LCPCB Part #
+10uF,"C1, C2",Capacitor_SMD:C_0805_2012Metric,C32635
+820nF,C3,Capacitor_SMD:C_0805_2012Metric,C152860
+Green,D1,LED_SMD:LED_0603_1608Metric,C409508
+MountingHole,"H1, H2, H3, H4",MountingHole:MountingHole_2.5mm,
+Conn_01x04_Male,"J1, J2",Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,
+Conn_01x04_Male,"J3, J4",Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,C160404
+BSS138,"Q1, Q2",Package_TO_SOT_SMD:SOT-23,C2938375
+10k,"R1, R2, R3, R4, R5",Resistor_SMD:R_0603_1608Metric,C402869
+AP2112K-3.3,U1,Package_TO_SOT_SMD:SOT-23-5,C51118
+AS5600,U2,AS5600,C499458

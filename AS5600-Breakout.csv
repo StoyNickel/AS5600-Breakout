@@ -1,0 +1,46 @@
+Source:,C:\Users\nsteu\Nextcloud\Projects\Robo Arm\Electronics\AS5600 Breakout\AS5600-Breakout\AS5600-Breakout\AS5600-Breakout.kicad_sch,,,,,,
+Date:,1/14/2023 11:47,,,,,,
+Tool:,Eeschema (6.0.10),,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,
+Component Count:,21,,,,,,
+,,,,,,,
+Individual Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,LCSC
+,,C1,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,C32635
+,,C2,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,C32635
+,,C3,820nF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,C152860
+,,D1,Green,Device:LED,LED_SMD:LED_0603_1608Metric,~,C409508
+,,H1,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,
+,,H2,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,
+,,H3,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,
+,,H4,MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,
+,,J1,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,
+,,J2,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,
+,,J3,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,~,C160404
+,,J4,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,~,C160404
+,,Q1,BSS138,Transistor_FET:BSS138,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF,C2938375
+,,Q2,BSS138,Transistor_FET:BSS138,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF,C2938375
+,,R1,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,C402869
+,,R2,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,C402869
+,,R3,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,C402869
+,,R4,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,C402869
+,,R5,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,C402869
+,,U1,AP2112K-3.3,Regulator_Linear:AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf,C51118
+,,U2,AS5600,AS5600:AS5600,AS5600,,C499458
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Collated Components:,,,,,,,
+,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,LCSC
+1,2,"C1, C2",10uF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,C32635
+2,1,C3,820nF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,C152860
+3,1,D1,Green,Device:LED,LED_SMD:LED_0603_1608Metric,~,C409508
+4,4,"H1, H2, H3, H4",MountingHole,Mechanical:MountingHole,MountingHole:MountingHole_2.5mm,~,
+5,2,"J1, J2",Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,~,
+6,2,"J3, J4",Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,~,C160404
+7,2,"Q1, Q2",BSS138,Transistor_FET:BSS138,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pub/Collateral/BSS138-D.PDF,C2938375
+8,5,"R1, R2, R3, R4, R5",10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,C402869
+9,1,U1,AP2112K-3.3,Regulator_Linear:AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,https://www.diodes.com/assets/Datasheets/AP2112.pdf,C51118
+10,1,U2,AS5600,AS5600:AS5600,AS5600,,C499458
